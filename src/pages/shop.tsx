@@ -1,5 +1,5 @@
-import { Header, News } from '@/compoments'
-import React from 'react'
+import { News } from '@/compoments'
+
 
 const ShopPage = () => {
   return (

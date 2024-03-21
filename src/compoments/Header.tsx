@@ -3,7 +3,7 @@ import User from "@/assets/icons/mdi_account-alert-outline.svg";
 import Search from "@/assets/icons/2.svg";
 import Head from "@/assets/icons/3.svg";
 import Cart from "@/assets/icons/4.svg";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <header className="header">

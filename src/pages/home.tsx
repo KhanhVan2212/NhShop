@@ -1,5 +1,5 @@
-import React from "react";
-import { Banner, Blog, Footer, Header, News, Services, Shop } from '@/compoments'
+
+import { Banner, Blog, News, Services, Shop } from '@/compoments'
 const HomePage = () => {
   return (
     <div>

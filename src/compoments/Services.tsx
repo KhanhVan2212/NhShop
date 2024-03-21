@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Cup from '@/assets/icons/10.svg'
 import Tich from '@/assets/icons/11.svg'
 import Ship from '@/assets/icons/12.svg'

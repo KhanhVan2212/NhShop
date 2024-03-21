@@ -1,16 +1,16 @@
-import { IProduct } from '@/interfaces/product'
-import { getAllProducts } from '@/services/product'
-import { useQuery } from '@tanstack/react-query'
-import React from 'react'
-import { Link } from 'react-router-dom'
-import Share from '@/assets/icons/compare-svgrepo-com 1.svg'
+// import { IProduct } from '@/interfaces/product'
+// import { getAllProducts } from '@/services/product'
+// import { useQuery } from '@tanstack/react-query'
+// import React from 'react'
+// import { Link } from 'react-router-dom'
+// import Share from '@/assets/icons/compare-svgrepo-com 1.svg'
 const News = () => {
-  const {data: products , isLoading , isError } = useQuery({
-    queryKey: ["PRODUCTS_KEY"],
-    queryFn: getAllProducts
-  })
-  if(isLoading) return <p>Loading...</p>
-  if(isError) return <p>Error</p>
+  // const {data: products , isLoading , isError } = useQuery({
+  //   queryKey: ["PRODUCTS_KEY"],
+  //   queryFn: getAllProducts
+  // })
+  // if(isLoading) return <p>Loading...</p>
+  // if(isError) return <p>Error</p>
   return (
     <div>
       <section className="news">
@@ -116,7 +116,7 @@ const News = () => {
           <button className="btn product-action__addtocart">Add To Cart</button>
           <div className="product-actions-more">\
             
-            <span className="product-action__share"> <img src={Share} alt="" /> Share</span>
+            <span className="product-action__share">Share</span>
             <span className="product-action__compare">Compare</span>
             <span className="product-action__like">Like</span>
           </div>
