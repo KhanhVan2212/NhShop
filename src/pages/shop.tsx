@@ -1,10 +1,12 @@
-import { News } from '@/compoments'
+import { Banner, News, Services } from '@/compoments'
 
 
 const ShopPage = () => {
   return (
     <div>
+      <Banner />
       <News />
+      <Services />
     </div>
   )
 }
