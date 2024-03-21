@@ -1,0 +1,10 @@
+{
+    "products" :[
+        {"id":1,"name": "Product A", "description": "A" , "price":100000 , "quantity":110 , "discount":10 , "image": "https://picsum.photos/id/10/200/300" , "featured" : true },
+        {"id":2,"name": "Product B", "description": "B" , "price":300 , "quantity":210 , "discount":5 , "image": "https://picsum.photos/id/11/200/300" , "featured" : false },
+        {"id":3,"name": "Product C", "description": "C" , "price":400 , "quantity":310 , "discount":20 , "image": "https://picsum.photos/id/12/200/300" , "featured" : true },
+        {"id":4,"name": "Product D", "description": "D" , "price":500 , "quantity":410 , "discount":30 , "image": "https://picsum.photos/id/13/200/300" , "featured" : false },
+        {"id":5,"name": "Product E", "description": "E" , "price":600 , "quantity":510 , "discount":40 , "image": "https://picsum.photos/id/14/200/300" , "featured" : true },
+        {"id":6,"name": "Product F", "description": "F" , "price":700 , "quantity":610 , "discount":50 , "image": "https://picsum.photos/id/15/200/300" , "featured" : false }
+    ]
+}
